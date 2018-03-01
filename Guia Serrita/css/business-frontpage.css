@@ -1,0 +1,134 @@
+/*!
+ * Start Bootstrap - Busines Frontpage (https://startbootstrap.com/template-overviews/business-frontpage)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-business-frontpage/blob/master/LICENSE)
+ */
+
+
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+
+  }
+}
+
+.business-header {
+  height: 50vh;
+  min-height: 300px;
+  background: url('http://placehold.it/1920x400') center center no-repeat scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.card {
+  height: 100%;
+}
+div.imagem {
+  position: relative;
+  background: url("../imagens/missa.jpg");
+    background-position:  center;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+    height: 605px;
+    
+}
+
+.text{
+  margin-top: 0px;
+  color: white;
+  text-align: center;
+  padding-top: 150px;
+  font-family: 'Archivo Black', sans-serif;
+      text-shadow: 3px 3px 10px #212121;
+}
+h1{
+  font-size: 70px;
+  text-shadow: 3px 3px 10px #000;
+}
+h4.edit{
+  font-family: 'Ranga', cursive;
+  font-size: 40px;
+}
+h2.edit{
+  font-family: 'Ranga', cursive;
+  font-size: 40px;
+}
+div.esc{
+   font-family: 'Archivo Black', sans-serif;
+   text-align: center;
+   color:#212121;
+ text-shadow: 3px 3px 10px #212121;
+}
+h2.hist1{
+  text-align: center;
+
+}
+
+div.ino{
+  margin-left: 0px;
+margin-right: 600px;
+
+}
+ 
+  img.imagem1 {
+  position: relative;
+    top: 50px;   
+    margin-left: 400px;
+    margin-top: 0px;
+
+    width: 500px;
+    height: 500px;
+    
+
+}
+div.text_descri{
+
+  top: 125px;
+  position: absolute;
+  
+  margin-left: -50px;
+  margin-right: 0px;
+}
+.map_ed
+{
+  position: relative;
+    /* 
+    Do math with the height of your iframe divided by the width, then converted to percent
+    In this example the height is 400 and the width is 600
+    400 / 600 = .66666667 
+    which is 66.6666667% */
+    padding-bottom: 90.6666667%; 
+    height: 0;
+}
+.map_ed iframe{
+  position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.mapWrapper {
+    position: relative;
+    /* 
+    Do math with the height of your iframe divided by the width, then converted to percent
+    In this example the height is 400 and the width is 600
+    400 / 600 = .66666667 
+    which is 66.6666667% */
+    padding-bottom: 40.6666667%; 
+    height: 0;
+}
+.mapWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+div.quem{
+  height: 50px;
+
+}
